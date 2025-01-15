@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-product">
+            <img src="images/orange.jpg" alt="">
+            <h3 class="title">Orange</h3>
+            <h4 class="price">$2.00</h4>
+           
+            <button onclick="addToCart('Orange', 2 )" class="btn">Add to Cart</button>
+        </div>
+
+            <div class="container-product-2">
+                <img src="images/strawberry.jpeg" alt="">
+                <h3 class="title">Strawberry</h3>
+                <h4 class="price">$2.00</h4>
+               
+                <button onclick="addToCart('Strawberry', 2 )" class="btn">Add to Cart</button>
+            </div>
+    </div>
+    <div class="product-preview">
+        <div class="preview">
+            <p>Organic Product</p>
+            <ul id="product-list"></ul>
+
+            <p id="totalPrice"> </p>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
